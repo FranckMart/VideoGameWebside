@@ -23,6 +23,7 @@ body {
     right: 0;
     top: 0;
     position: relative;
+    background-color: rgb(211, 218, 211);
 }
 
 h1,
@@ -32,18 +33,31 @@ h4,
 h5 {
     margin: 0;
 }
-ul,li{
+
+h1,
+h2 {
+    font-size: 1.6rem;
+}
+
+ul,
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: aliceblue;
 }
+
+a:hover {
+    text-decoration: none;
+    color: rgb(184, 184, 184)
+}
+
 header {
     width: 100%;
-    margin-top: auto;
     margin-bottom: auto;
+    margin-top: auto;
     display: flex;
     background-color: #29B01B;
 }
@@ -53,24 +67,25 @@ header {
 
 }
 
-#contentHeaderRight{
+#contentHeaderRight {
     width: 20%;
 
 }
 
-.login{
+.login {
     width: 100%;
     text-align: center;
     margin: auto;
 }
+
 #contentHeaderCenter {
-   
+
     width: 60%;
     margin-top: auto;
-    margin-bottom: auto;
+
 }
 
-.navCategorie{
+.navCategorie {
     display: flex;
     text-align: center;
 }
@@ -79,4 +94,62 @@ header {
     margin: auto;
     text-align: center;
     padding: 1%;
+}
+
+#contentCenter {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+}
+
+.contentLeft {
+    
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 40px;
+    background-color: rgb(160, 158, 158);
+}
+
+.contentRight {
+    border-radius: 40px;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(47, 194, 104);
+}
+
+.contentRightTOP {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    background-color: aqua;
+}
+
+.contentRightTOP {
+    width: 100%;
+    height: 50%;
+}
+
+/* Bootstrap css */
+
+.carousel-item {
+    width: 100%;
+    margin-top: 2%;
+    transition: transform .3s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.w-100 {
+    width: 70% !important;
+}
+
+.d-block {
+    margin: auto;
+}
+
+.carousel-control-next {
+    right: 10%;
+}
+
+.carousel-control-prev {
+    left: 10%;
 }
