@@ -66,6 +66,8 @@ header {
 #contentHeaderCenter {
    
     width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .navCategorie{
