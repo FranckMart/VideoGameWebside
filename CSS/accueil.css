@@ -1,0 +1,80 @@
+/*
+kit UI
+
+53C147
+29B01B
+0A6700
+063B00
+
+
+*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    background-color: #29B01B;
+}
+
+#contentHeaderLeft {
+    width: 20%;
+
+}
+
+#contentHeaderRight{
+    width: 20%;
+
+}
+
+.login{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+#contentHeaderCenter {
+   
+    width: 60%;
+}
+
+.navCategorie{
+    display: flex;
+    text-align: center;
+}
+
+.navheader {
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+}
