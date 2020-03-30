@@ -1,5 +1,5 @@
 <div id="contentHeaderLeft">
-            <img src="" alt="">
+            <img src="img/logo.png" alt="Logo Scoop Games">
         </div>
         <div id="contentHeaderCenter">
             <ul class="navCategorie">
@@ -10,7 +10,7 @@
                 </div>
                 <div class="navheader">
                     <li>
-                        <h2><a href="">News</h2></a>
+                        <h2><a href="HTML/news.php">News</h2></a>
                     </li>
                 </div>
                 <div class="navheader">
